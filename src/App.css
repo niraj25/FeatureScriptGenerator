@@ -1,0 +1,47 @@
+.title{
+    text-align: center;
+    font-size: 18px;
+    height: 4vh;
+    border-bottom: 1px solid black;
+    padding: 5px;    
+    vertical-align: text-bottom;
+    margin-bottom: 1vh;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+}
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;       
+}
+
+.flex-item {    
+    width: 50vw;
+    height: 95vh;
+    border-right: 1px solid #ddd;    
+}
+
+input {
+		width : 50%;
+	}
+
+label {
+	width: 35%;
+	margin-right: .5em;
+	text-align: right;
+}   
+.copy{
+    margin: 0 5px 5px 0;    
+    display: block;
+    width: 100%;
+    text-align: right;
+} 
+
+.query{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 14px;
+}
